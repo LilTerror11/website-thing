@@ -1,0 +1,150 @@
+body {
+    font-family: Calibri;
+    margin-bottom: calc(16vh + 8px);/**/
+}
+
+.section {
+    margin: 10px;
+    border: 2px solid gray;
+    border-top: 3px solid black;
+}
+
+.section h3 {
+    margin: 5px;
+}
+
+.section .center {
+    text-align: center;
+}
+
+.section p {
+    border-top: 0.5px solid black;
+    margin: 5px;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+/* ------------- LEFT  DIV ------------- */
+
+/*.left {
+    /*top: 0;*/
+    /*bottom: 100px;*/
+    /*position: absolute;*/
+    /*right: 50vw;
+    left: 0;
+
+    padding-right: 25px;
+    border-right: 1px solid black;
+    /*margin-bottom: 200px;
+    /*border-right: 2px solid black;*/
+/*}/**/
+
+/*.left {
+
+}*/
+
+/*@media screen and (max-width: 600px) {
+    .left {
+        right: 0;
+        position: relative;
+        border: 0;
+    }
+}
+
+.left h3 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+/* ------------------------------------- */
+/* ------------- RIGHT DIV ------------- */
+
+/*.right {
+    position: absolute;
+    right:0;
+    left: 50vw;
+    padding-left: 25px;
+    margin-right: 20px;
+    /*border-left: 1px solid black;*/
+/*}
+
+@media screen and (max-width: 600px) {
+    .right {
+        left: 0;
+        position: relative;
+        padding-left: 0;
+    }
+}
+
+.right h3 {
+    margin: 0;
+    margin-left: 20px;
+}
+
+/* ------------------------------------- */
+
+.content h1 {
+    position: absolute;
+}
+
+.part {
+    display: table-cell;
+    width: 50%;
+}
+
+/* This did not work */
+/* (Read the other thing first) */
+@media screen and (max-width: 1000px) {
+    /*.part {
+        display: table-cell;
+        width: 100%;
+    }*/
+    .part {
+        display: table-cell;
+        width: 25%;
+    }
+}
+
+/* i god dam hate css */
+@media screen and (max-width: 600px) {
+    /* i tried */
+    /*.part {
+        display: table-cell;
+        width: 50%;
+    }
+    /* This god dam part does not un apply when it's un scaled */
+    .part {
+        display: unset;
+        width: 100%;
+    }
+}
+
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(4vh + 20px);
+    background-color: darkorange;
+    left: 0;
+    padding: 0;
+    /*padding: 10px;*/
+}/**/
+
+
+.footer p {
+    padding: 1px;
+    padding-inline: 10px;
+    margin: 0;
+}
+
+.footer .other {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
